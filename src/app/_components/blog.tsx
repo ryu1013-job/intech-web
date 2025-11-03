@@ -54,7 +54,7 @@ export const Blog = () => {
               <span className="group-hover:text-fg transition-colors duration-200 mr-1">
                 {blog.title}
               </span>
-              <ArrowUpRight className="inline-block size-4 mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+              <ArrowUpRight className="group-hover:inline-block size-4 mb-1 hidden" />
             </a>
           </li>
         ))}

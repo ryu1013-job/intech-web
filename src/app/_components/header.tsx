@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const Header = () => {
   return (
-    <header className="fixed z-30 top-0 right-0 w-full py-2 bg-white/10 backdrop-blur-md">
+    <header className="fixed z-30 top-0 right-0 w-full py-2 bg-white/10 backdrop-blur-md px-2">
       <div className="max-w-2xl w-full mx-auto flex justify-between">
         <Image
           src="/intech.webp"

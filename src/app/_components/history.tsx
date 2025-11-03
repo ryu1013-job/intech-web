@@ -33,7 +33,7 @@ export const History = () => {
           {HISTORY.map((item, index) => (
             <div
               key={index}
-              className="before:content-[''] before:absolute before:left-0 before:w-1 before:h-0.5 before:rounded-r-full before:bg-fg/50 relative pl-3 flex gap-2 items-center"
+              className="before:content-[''] before:absolute before:left-0 before:w-1 before:h-0.5 before:rounded-r-full before:bg-fg/50 relative pl-3 flex gap-1.5 items-center"
             >
               <Text variant="secondary">
                 {item.date}
