@@ -42,7 +42,7 @@ export const Blog = () => {
       <Text>ブログ</Text>
       <ul className="text-fg/70 text-sm leading-[2.35em] list-disc list-inside">
         {BLOGS.map((blog, index) => (
-          <li key={index} className="group font-semibold w-fit">
+          <li key={index} className="group font-semibold">
             <a href={blog.url} target="_blank">
               <Image
                 src={blog.iconUrl}
