@@ -11,7 +11,7 @@ export const Member = () => {
         <li>xxx専攻</li>
         <li>xxx専攻</li>
       </ul>
-      <Text variant="secondary">など</Text>
+      <Text variant="secondary">など約50名が所属しています。</Text>
     </>
   )
 }
