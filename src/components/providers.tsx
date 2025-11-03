@@ -16,7 +16,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
   return (
     <RouterProvider navigate={router.push}>
-      <ThemeProvider storageKey="theme-ui" attribute="class" defaultTheme="system">
+      <ThemeProvider storageKey="theme-ui" attribute="class" defaultTheme="light">
         {children}
       </ThemeProvider>
     </RouterProvider>
